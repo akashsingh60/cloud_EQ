@@ -1,5 +1,5 @@
-num= int(input())
-if num % 2==0:
-    print("even")
-else:
-    print ("odd")
+def add_numbers(x=5, y=6):
+    result = x + y
+    return result
+
+print(add_numbers())
