@@ -15,7 +15,7 @@ resource "local_file" "file3" {
 
 resource "local_file" "file4" {
   filename = "forth.java"
-  content  = "Ncurrently pursuing CAfrom chandigarh university"
+  content  = "Ncurrently pursuing from chandigarh university"
 }
 
 locals {
